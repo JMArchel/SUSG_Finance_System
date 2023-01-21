@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+
+/*apply to all pages*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:#1F211C;
+}
+body{
+    overflow-x: hidden;
+    background-color: #FCEDED;
+    padding-left: 5rem;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Playfair Display', serif;
+    color: #ffcf49;
+}
+h1{
+    font-size: 5rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+h4{
+    font-size: 3rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 2rem;
+    font-weight: 600;
+}
+label{
+    padding-top: 0.3rem;
+}
+.design{
+    background: -webkit-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 80%);
+    background: -o-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 80%);
+    background: -moz-linear-gradient(110deg, #fdcd3b 60%, #ffed4b 80%);
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 80%);
+  }
+.title-name{
+    color: white;
+    font-size: 1.5rem;
+    text-align: end;
+    padding: 0.5rem 2rem;
+    background-color: #ffcf49;
+    top: 1rem;
+    left: auto;
+    right: 0px;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    transition: all 0.5s ease;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.body-top{
+    padding-top: 4rem;
+}
+/*applies to all login,register....*/
+.title{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+}
+.account-header{
+    font-size: 2.5rem;
+    padding: 0rem 0rem 0rem 0.5rem;
+    border-left: 1rem solid #ffcf49;
+}
+.account-body {
+    background: -webkit-linear-gradient(110deg, #fdcd3b 50%, #ffed4b 60%);
+    background: -o-linear-gradient(110deg, #fdcd3b 50%, #ffed4b 60%);
+    background: -moz-linear-gradient(110deg, #fdcd3b 50%, #ffed4b 60%);
+    background: linear-gradient(110deg, #fdcd3b 50%, #ffed4b 60%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80rem;
+    height: 40rem;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.account-back{
+    background-color: #FCEDED;
+    background-image: radial-gradient(#1F211C 1px, #FCEDED 1px);
+    background-size: 20px 20px;
+}
+.account-info{
+    background-color: white;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    border-radius: 1rem;
+}
+.link{
+    text-decoration: none;
+    font-size: 15px;
+}
+.description{
+    text-align:justify;
+    padding:1rem 3rem 1rem 3rem;
+    font-weight: 500;
+    text-indent: 3rem;
+    font-weight: 500;
+}
