@@ -1,0 +1,43 @@
+table
+{
+ border-collapse: separate;
+ border-spacing: 0 .3rem;
+}
+tr:hover td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+tr:hover th {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+p{
+  font-size: 13px;
+}
+.alert{
+  margin-bottom: 0px;
+}
+.alert-custom{
+  background-color:#ffcf49;
+}
+.icons_1 {
+  font-size: 14px;
+  color: white;
+}
+.schoolyear{
+  color: white;
+  font-size: 1.5rem;
+  text-align: end;
+  padding: 0.3rem 2rem;
+  background-color: #ffcf49;
+  top: 1rem;
+  left: auto;
+  right: 0px;
+  border-bottom-left-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  transition: all 0.5s ease;
+  font-weight: 500;
+}
+.schoolyear:hover{
+  padding-right: 3rem;
+}

@@ -1,0 +1,72 @@
+.profile-body{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.card{
+  border-radius: 1rem;
+}
+.card-body{
+  padding: 2rem 4rem;
+}
+.profile-initial{
+  padding-top: 0.6rem;
+  height: 15rem;
+  width: 15rem;
+  border: 1rem solid rgba(245, 245, 245, 0.911);
+  border-radius: 50%;
+  background: white;
+  font-size: 8rem;
+  text-align: center;
+  color: #ffcf49;
+  font-weight: 500;
+}
+.profile-lastname{
+  font-family: Playfair Display;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.profile-firstname{
+  font-family: Playfair Display;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 3rem;
+}  
+.position{
+  border-radius: 2rem;
+  background: #1F211C;
+  color: white; 
+  font-size: 0.9rem;
+ }
+.links {
+  display: flex;
+  align-items: center;
+  margin-top: 0.4rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #1F211C;
+  margin-top: 2rem;
+}
+.links:link, .links:visited {
+  background-color: white;
+  color: #1F211C
+}
+.links:hover {
+  background-color: rgba(146, 146, 146, 0.712);
+  color: #1F211C
+}
+.links:active {
+  background-color: rgba(99, 99, 99, 0.521);
+  color: #1F211C
+}  
+.icon {
+  font-size: 1rem;
+  color: #1F211C
+}

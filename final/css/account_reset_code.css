@@ -1,0 +1,52 @@
+form .input-field{
+  flex-direction: row;
+  column-gap: 10px;
+  padding-top: 3rem;
+}
+.input-field input {
+  height: 3.4rem;
+  width: 3.3rem;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid rgb(202, 202, 202);
+}
+.input-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+  display: none;
+}
+form button {
+  margin-top: 2rem;
+  width: 10rem;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 9px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  pointer-events: none;
+  background: white;
+  transition: all 0.2s ease;
+}
+form button.active {
+  background: #ffc526;
+  pointer-events: auto;
+}
+form button:hover {
+  background: #ffd562;
+}  
+.shield-icon {
+  height: 70px;
+  width: 70px;
+  padding-top: 1rem;
+  background: #ffc526;
+  color: #fff;
+  font-size: 2.5rem;
+  border-radius: 50%;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
